@@ -6,9 +6,6 @@ spring:
         url: ${JDBC_DATABASE_URL}
         username: ${JDBC_DATABASE_USERNAME}
         password: ${JDBC_DATABASE_PASSWORD}
-        # url: jdbc:postgresql://localhost:5432/feedback
-        # username: postgres
-        # password: Magni064fg$
     
         hikari:
             connection-timeout: 10000
